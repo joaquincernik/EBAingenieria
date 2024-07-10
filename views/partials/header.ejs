@@ -37,20 +37,28 @@
             <img src="/images/logocoTravelSinFondo.png" width="250px" class="d-inline-block" alt="">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active pr-4 pl-5" href="/">Inicio <span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link pr-4" href="/viajes/viajes-disponibles">Viajes disponibles</a>
-                    <a class="nav-item nav-link pr-4 disabled" href="#">Mis viajes</a>
-                    <a class="nav-item nav-link pr-4" href="/equipo">Conoce nuestro equipo</a>
-                    <a class="nav-item nav-link pr-4" href="/users/register/">Registrarme</a>
-                    <a class="nav-item nav-link pr-4" href="/users/login/">Iniciar sesion</a>
+                    <a class="nav-item nav-link pr-4 pl-5 text-primary" href="/">Inicio</a>
+                            <div class="dropdown show">
+                                <a class="btn btn-white dropdown-toggle text-primary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Nuestros servicios
+                                </a>
+                              
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Agrimensura</a>
+                                  <a class="dropdown-item" href="#">Hidrologia e hidraulica</a>
+                                  <a class="dropdown-item" href="#">Topografia</a>
+                                  <a class="dropdown-item" href="#">Infraestructura</a>
+                                  <a class="dropdown-item" href="#">Ingenieria ambiental</a>
+                                  <a class="dropdown-item" href="#">Ejecucion y direccion de obras</a>
+
+                                </div>
+                              </div>
+                    <a class="nav-item nav-link pr-4 text-primary" href="#">Proyectos</a>
+                    <a class="nav-item nav-link pr-4 text-primary " href="/equipo">Contacto</a>
+                   
 
                 </div>
-                <form class="form-inline pl-5">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar viajes disponibles"
-                        aria-label="Search">
-                    <button class="btn btn-light my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+            
             </div>
 
         </nav>
